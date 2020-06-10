@@ -4,6 +4,7 @@
   "description": "Typescript client for Alma (using axios)",
   "main": "./dist/index.js",
   "types": "./dist-types/index.d.ts",
+  "files": ["./dist"],
   "repository": "https://github.com/permettez-moi-de-construire/alma-client",
   "author": "Cyril CHAPON <cyril@permettezmoideconstruire.fr>",
   "license": "MIT",
