@@ -1,10 +1,12 @@
 {
   "name": "@permettezmoideconstruire/alma-client",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Typescript client for Alma (using axios)",
   "main": "./dist/index.js",
   "types": "./dist-types/index.d.ts",
-  "files": ["./dist"],
+  "files": [
+    "./dist"
+  ],
   "repository": "https://github.com/permettez-moi-de-construire/alma-client",
   "author": "Cyril CHAPON <cyril@permettezmoideconstruire.fr>",
   "license": "MIT",
