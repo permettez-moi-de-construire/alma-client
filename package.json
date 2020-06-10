@@ -15,18 +15,24 @@
   "private": false,
   "scripts": {
     "build": "yarn _clean && yarn _ready && yarn _compile",
-    "_compile": "tsc",
-    "_clean": "yarn _clean:dist && yarn _clean:types",
+    "_compile": "yarn _compile:dist && yarn _compile:doc",
+    "_compile:dist": "tsc",
+    "_compile:doc": "typedoc --out docs --plugin typedoc-plugin-markdown --mode file",
+    "_clean": "yarn _clean:dist && yarn _clean:types && yarn _clean:doc",
     "_clean:dist": "shx rm -rf dist",
     "_clean:types": "shx rm -rf dist-types",
-    "_ready": "yarn _ready:dist && yarn _ready:types",
+    "_clean:doc": "shx rm -rf docs",
+    "_ready": "yarn _ready:dist && yarn _ready:types && yarn _ready:doc",
     "_ready:dist": "shx mkdir -p dist",
-    "_ready:types": "shx mkdir -p dist-types/types"
+    "_ready:types": "shx mkdir -p dist-types/types",
+    "_ready:doc": "shx mkdir -p docs"
   },
   "devDependencies": {
     "@types/node": "^14.0.13",
     "shx": "^0.3.2",
     "type-fest": "^0.15.1",
+    "typedoc": "^0.17.7",
+    "typedoc-plugin-markdown": "^2.3.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
