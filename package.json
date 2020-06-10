@@ -15,9 +15,7 @@
   "private": false,
   "scripts": {
     "build": "yarn _clean && yarn _ready && yarn _compile",
-    "_compile": "yarn _compile:dist && yarn _compile:types",
-    "_compile:dist": "tsc",
-    "_compile:types": "cp -r ./src/types/* ./dist-types/types",
+    "_compile": "tsc",
     "_clean": "yarn _clean:dist && yarn _clean:types",
     "_clean:dist": "shx rm -rf dist",
     "_clean:types": "shx rm -rf dist-types",
