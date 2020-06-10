@@ -5,7 +5,8 @@
   "main": "./dist/index.js",
   "types": "./dist-types/index.d.ts",
   "files": [
-    "./dist"
+    "./dist",
+    "./dist-types"
   ],
   "repository": "https://github.com/permettez-moi-de-construire/alma-client",
   "author": "Cyril CHAPON <cyril@permettezmoideconstruire.fr>",
