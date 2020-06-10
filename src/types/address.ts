@@ -1,6 +1,6 @@
-import type { SetNullable } from './type-helpers.d'
+import type { SetNullable } from './type-helpers'
 
-import type { AlmaEntity } from './common.d'
+import type { AlmaEntity } from './common'
 
 export interface AlmaAddressBaseShape {
   first_name: string

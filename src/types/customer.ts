@@ -1,10 +1,10 @@
-import { SetNullable } from './type-helpers.d'
+import { SetNullable } from './type-helpers'
 
-import { AlmaEntity } from './common.d'
+import { AlmaEntity } from './common'
 
-import { AlmaAddress, AlmaAddressPayload } from './address.d'
-import { AlmaBankAccount } from './bank-account.d'
-import { AlmaCard } from './card.d'
+import { AlmaAddress, AlmaAddressPayload } from './address'
+import { AlmaBankAccount } from './bank-account'
+import { AlmaCard } from './card'
 
 export interface AlmaCustomerBaseShape {
   first_name: string

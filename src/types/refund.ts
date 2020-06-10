@@ -1,4 +1,4 @@
-import { AlmaEntity } from './common.d'
+import { AlmaEntity } from './common'
 
 export interface AlmaRefundBaseShape {
   amount: number

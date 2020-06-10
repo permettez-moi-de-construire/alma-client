@@ -4,7 +4,7 @@ import {
   AlmaEntity,
   AlmaCardFunding,
   AlmaCardBrand
-} from './common.d'
+} from './common'
 
 export interface AlmaCardBaseShape<PSPT extends {} = {}> {
   exp_month: number

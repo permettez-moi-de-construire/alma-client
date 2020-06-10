@@ -1,6 +1,6 @@
-import { SetNullable } from './type-helpers.d'
+import { SetNullable } from './type-helpers'
 
-import { AlmaEntity } from './common.d'
+import { AlmaEntity } from './common'
 
 export interface AlmaOrderBaseShape<CODT extends {} = {}> {
   merchant_reference: string

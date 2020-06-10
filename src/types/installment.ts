@@ -1,4 +1,4 @@
-import { AlmaInstallmentState } from './common.d'
+import { AlmaInstallmentState } from './common'
 
 export interface AlmaInstallmentBaseShape {
   purchase_amount: number

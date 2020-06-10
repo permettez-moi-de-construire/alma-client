@@ -1,20 +1,20 @@
 import {
   SetNullable,
   RequireAtLeastOne
-} from './type-helpers.d'
+} from './type-helpers'
 
 import {
   AlmaEntity,
   AlmaPaymentState,
   AlmaPaymentMethod,
   AlmaLocale
-} from './common.d'
+} from './common'
 
-import { AlmaAddressPayload, AlmaAddress } from './address.d'
-import { AlmaCustomerPayload, AlmaCustomer } from './customer.d'
-import { AlmaOrderPayload, AlmaOrder } from './order.d'
-import { AlmaRefund } from './refund.d'
-import { AlmaHypotheticalInstallment } from './installment.d'
+import { AlmaAddressPayload, AlmaAddress } from './address'
+import { AlmaCustomerPayload, AlmaCustomer } from './customer'
+import { AlmaOrderPayload, AlmaOrder } from './order'
+import { AlmaRefund } from './refund'
+import { AlmaHypotheticalInstallment } from './installment'
 
 export interface AlmaPaymentBaseShape<CDT extends {} = {}> {
   // billing_address: AlmaAddressBaseShape

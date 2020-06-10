@@ -1,6 +1,6 @@
 // TODO: CHECK
 
-import { AlmaEntity } from './common.d'
+import { AlmaEntity } from './common'
 
 export interface AlmaSepaMandateBaseShape {
   accept_date: number
