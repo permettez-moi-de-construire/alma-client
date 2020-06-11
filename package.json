@@ -8,7 +8,6 @@
     "/src",
     "/dist",
     "/dist-types",
-    "docs",
     "README.md"
   ],
   "repository": "https://github.com/permettez-moi-de-construire/alma-client",
