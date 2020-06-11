@@ -26,6 +26,7 @@ import {
 // dedicated Axios instance for Alma
 const almaClient = getClient(
   process.env.ALMA_API_KEY,
+  // Optional but typically useful to switch to sandbox API endpoint
   process.env.ALMA_API_ENDPOINT
 )
 
