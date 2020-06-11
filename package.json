@@ -19,6 +19,7 @@
     "build": "yarn _clean && yarn _ready && yarn _compile",
     "build:doc": "yarn _clean:doc && yarn _ready:doc && yarn _compile:doc",
     "lint": "ts-standard | snazzy",
+    "typecheck": "tsc --noEmit",
     "_compile": "yarn _compile:dist",
     "_compile:dist": "tsc",
     "_compile:doc": "typedoc --out docs --plugin typedoc-plugin-markdown --mode file",
@@ -31,9 +32,15 @@
     "_ready:types": "shx mkdir -p dist-types/types",
     "_ready:doc": "shx mkdir -p docs"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "yarn lint && yarn typecheck"
+    }
+  },
   "ts-standard": {},
   "devDependencies": {
     "@types/node": "^14.0.13",
+    "husky": "^4.2.5",
     "shx": "^0.3.2",
     "snazzy": "^8.0.0",
     "ts-standard": "^8.0.1",
