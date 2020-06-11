@@ -12,14 +12,15 @@ yarn add @permettezmoideconstruire/alma-client
 
 ## Usage
 
-```
+```typescript
+import type { AxiosResponse } from 'axios'
 
 import {
   getClient,
   createPayment,
   AlmaPaymentOrderPayload,
   AlmaPayment
-} from '@permettezmoideconstruire/alma-client
+} from '@permettezmoideconstruire/alma-client'
 
 const almaClient = getClient(
   process.env.ALMA_API_KEY,
@@ -35,8 +36,7 @@ const paymentOrderPayload: AlmaPaymentOrderPayload = {
   }
 }
 
-// This is Promise<AxiosResponse<Payment>>
-const result = await _createPayment(almaClient)(paymentOrderCreation)
-const payment: Payment = result.data
+const result: AxiosResponse<Payment> = await createPayment(almaClient)(paymentOrderCreation)
 
+const payment: Payment = result.data
 ```
