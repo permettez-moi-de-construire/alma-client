@@ -22,11 +22,14 @@ import {
   AlmaPayment
 } from '@permettezmoideconstruire/alma-client'
 
+// This creates and configure
+// dedicated Axios instance for Alma
 const almaClient = getClient(
   process.env.ALMA_API_KEY,
   process.env.ALMA_API_ENDPOINT
 )
 
+// API types helpers for payloads
 const paymentOrderPayload: AlmaPaymentOrderPayload = {
   payment: {
     billing_address: {
@@ -36,7 +39,9 @@ const paymentOrderPayload: AlmaPaymentOrderPayload = {
   }
 }
 
+// Each call is curryfied : method(almaClient)(data / options)
 const result: AxiosResponse<Payment> = await createPayment(almaClient)(paymentOrderCreation)
 
+// API types for returns
 const payment: Payment = result.data
 ```
