@@ -80,7 +80,7 @@
 
 Ƭ **AllNullable**: *object*
 
-*Defined in [types/type-helpers.ts:5](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/type-helpers.ts#L5)*
+*Defined in [types/type-helpers.ts:5](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/type-helpers.ts#L5)*
 
 #### Type declaration:
 
@@ -90,7 +90,7 @@ ___
 
 Ƭ **AlmaAddress**: *[AlmaEntity](interfaces/almaentity.md) & Omit‹[SetNullable](globals.md#setnullable)‹[AlmaAddressBaseShape](interfaces/almaaddressbaseshape.md)›, "country"› & Pick‹[AlmaAddressBaseShape](interfaces/almaaddressbaseshape.md), "country"›*
 
-*Defined in [types/address.ts:33](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L33)*
+*Defined in [types/address.ts:33](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/address.ts#L33)*
 
 ___
 
@@ -98,7 +98,7 @@ ___
 
 Ƭ **AlmaAddressPayload**: *Partial‹[AlmaAddressBaseShape](interfaces/almaaddressbaseshape.md)›*
 
-*Defined in [types/address.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L19)*
+*Defined in [types/address.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/address.ts#L19)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 Ƭ **AlmaAxiosInstance**: *AxiosInstance*
 
-*Defined in [lib/index.ts:3](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L3)*
+*Defined in [lib/index.ts:3](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/index.ts#L3)*
 
 ___
 
@@ -114,7 +114,7 @@ ___
 
 Ƭ **AlmaBankAccount**: *[AlmaEntity](interfaces/almaentity.md) & [AlmaBankAccountBaseShape](interfaces/almabankaccountbaseshape.md)*
 
-*Defined in [types/bank-account.ts:23](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L23)*
+*Defined in [types/bank-account.ts:23](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/bank-account.ts#L23)*
 
 ___
 
@@ -122,7 +122,7 @@ ___
 
 Ƭ **AlmaCard**: *[AlmaEntity](interfaces/almaentity.md) & [AlmaCardBaseShape](interfaces/almacardbaseshape.md)‹PSPT›*
 
-*Defined in [types/card.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L21)*
+*Defined in [types/card.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L21)*
 
 ___
 
@@ -130,7 +130,7 @@ ___
 
 Ƭ **AlmaCustomer**: *[AlmaEntity](interfaces/almaentity.md) & [SetNullable](globals.md#setnullable)‹[AlmaCustomerBaseShape](interfaces/almacustomerbaseshape.md)› & object*
 
-*Defined in [types/customer.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L43)*
+*Defined in [types/customer.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L43)*
 
 ___
 
@@ -138,7 +138,7 @@ ___
 
 Ƭ **AlmaCustomerPayload**: *Partial‹[AlmaCustomerBaseShape](interfaces/almacustomerbaseshape.md)› & object*
 
-*Defined in [types/customer.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L18)*
+*Defined in [types/customer.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L18)*
 
 ___
 
@@ -146,7 +146,7 @@ ___
 
 Ƭ **AlmaHypotheticalInstallment**: *[AlmaInstallmentBaseShape](interfaces/almainstallmentbaseshape.md)*
 
-*Defined in [types/installment.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L9)*
+*Defined in [types/installment.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/installment.ts#L9)*
 
 ___
 
@@ -154,7 +154,7 @@ ___
 
 Ƭ **AlmaOrder**: *[AlmaEntity](interfaces/almaentity.md) & [SetNullable](globals.md#setnullable)‹[AlmaOrderBaseShape](interfaces/almaorderbaseshape.md)‹CODT›› & object*
 
-*Defined in [types/order.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/order.ts#L21)*
+*Defined in [types/order.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/order.ts#L21)*
 
 ___
 
@@ -162,7 +162,7 @@ ___
 
 Ƭ **AlmaOrderPayload**: *Partial‹[AlmaOrderBaseShape](interfaces/almaorderbaseshape.md)‹CODT››*
 
-*Defined in [types/order.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/order.ts#L11)*
+*Defined in [types/order.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/order.ts#L11)*
 
 ___
 
@@ -170,7 +170,7 @@ ___
 
 Ƭ **AlmaPayment**: *[AlmaEntity](interfaces/almaentity.md) & [SetNullable](globals.md#setnullable)‹[AlmaPaymentBaseShape](interfaces/almapaymentbaseshape.md)‹CDT›, "customer_cancel_url" | "return_url"› & object*
 
-*Defined in [types/payment.ts:144](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L144)*
+*Defined in [types/payment.ts:144](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/payment.ts#L144)*
 
 ___
 
@@ -178,7 +178,7 @@ ___
 
 Ƭ **AlmaPaymentPayload**: *Omit‹Partial‹[AlmaPaymentBaseShape](interfaces/almapaymentbaseshape.md)‹CDT››, "purchase_amount"› & Pick‹[AlmaPaymentBaseShape](interfaces/almapaymentbaseshape.md), "purchase_amount"› & [RequireAtLeastOne](globals.md#requireatleastone)‹object› & object*
 
-*Defined in [types/payment.ts:36](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L36)*
+*Defined in [types/payment.ts:36](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/payment.ts#L36)*
 
 ___
 
@@ -186,7 +186,7 @@ ___
 
 Ƭ **AlmaRefund**: *[AlmaEntity](interfaces/almaentity.md) & [AlmaRefundBaseShape](interfaces/almarefundbaseshape.md)*
 
-*Defined in [types/refund.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/refund.ts#L15)*
+*Defined in [types/refund.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/refund.ts#L15)*
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 Ƭ **AlmaRefundPayload**: *Omit‹Partial‹[AlmaRefundBaseShape](interfaces/almarefundbaseshape.md)›, "payment"›*
 
-*Defined in [types/refund.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/refund.ts#L9)*
+*Defined in [types/refund.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/refund.ts#L9)*
 
 ___
 
@@ -202,7 +202,7 @@ ___
 
 Ƭ **AlmaSepaMandate**: *[AlmaEntity](interfaces/almaentity.md) & [AlmaSepaMandateBaseShape](interfaces/almasepamandatebaseshape.md)*
 
-*Defined in [types/bank-account.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L12)*
+*Defined in [types/bank-account.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/bank-account.ts#L12)*
 
 ___
 
@@ -210,7 +210,7 @@ ___
 
 Ƭ **Nullable**: *T | null*
 
-*Defined in [types/type-helpers.ts:3](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/type-helpers.ts#L3)*
+*Defined in [types/type-helpers.ts:3](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/type-helpers.ts#L3)*
 
 ___
 
@@ -218,7 +218,7 @@ ___
 
 Ƭ **RequireAtLeastOne**: *Pick‹T, Exclude‹keyof T, Keys›› & object[Keys]*
 
-*Defined in [types/type-helpers.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/type-helpers.ts#L19)*
+*Defined in [types/type-helpers.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/type-helpers.ts#L19)*
 
 ___
 
@@ -226,7 +226,7 @@ ___
 
 Ƭ **SetNullable**: *Except<BaseType, Keys> & AllNullable<Pick<BaseType, Keys>> extends infer InferredType ? object : never*
 
-*Defined in [types/type-helpers.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/type-helpers.ts#L9)*
+*Defined in [types/type-helpers.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/type-helpers.ts#L9)*
 
 ## Variables
 
@@ -234,7 +234,7 @@ ___
 
 • **defaultEndpoint**: *"https://api.getalma.eu"* = "https://api.getalma.eu"
 
-*Defined in [lib/index.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L11)*
+*Defined in [lib/index.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/index.ts#L11)*
 
 ## Functions
 
@@ -242,7 +242,7 @@ ___
 
 ▸ **createPayment**(`almaAxiosClient`: [AlmaAxiosInstance](globals.md#almaaxiosinstance)): *(Anonymous function)*
 
-*Defined in [lib/payment.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/payment.ts#L14)*
+*Defined in [lib/payment.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/payment.ts#L14)*
 
 **Parameters:**
 
@@ -258,7 +258,7 @@ ___
 
 ▸ **createRefund**(`almaAxiosClient`: [AlmaAxiosInstance](globals.md#almaaxiosinstance)): *(Anonymous function)*
 
-*Defined in [lib/refund.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/refund.ts#L11)*
+*Defined in [lib/refund.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/refund.ts#L11)*
 
 **Parameters:**
 
@@ -274,7 +274,7 @@ ___
 
 ▸ **findPayment**(`almaAxiosClient`: [AlmaAxiosInstance](globals.md#almaaxiosinstance)): *(Anonymous function)*
 
-*Defined in [lib/payment.ts:25](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/payment.ts#L25)*
+*Defined in [lib/payment.ts:25](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/payment.ts#L25)*
 
 **Parameters:**
 
@@ -290,7 +290,7 @@ ___
 
 ▸ **getClient**(`apiKey`: string, `endpoint`: string): *[AlmaAxiosInstance](globals.md#almaaxiosinstance)*
 
-*Defined in [lib/index.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L13)*
+*Defined in [lib/index.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/index.ts#L13)*
 
 **Parameters:**
 
@@ -307,7 +307,7 @@ ___
 
 ▸ **getPaymentEligibility**(`almaAxiosClient`: [AlmaAxiosInstance](globals.md#almaaxiosinstance)): *[PaymentEligibilityGetRequest](interfaces/paymenteligibilitygetrequest.md)*
 
-*Defined in [lib/eligibility.ts:20](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/eligibility.ts#L20)*
+*Defined in [lib/eligibility.ts:20](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/eligibility.ts#L20)*
 
 **Parameters:**
 
@@ -323,7 +323,7 @@ ___
 
 ▸ **listPayments**(`almaAxiosClient`: [AlmaAxiosInstance](globals.md#almaaxiosinstance)): *(Anonymous function)*
 
-*Defined in [lib/payment.ts:40](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/payment.ts#L40)*
+*Defined in [lib/payment.ts:40](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/payment.ts#L40)*
 
 **Parameters:**
 

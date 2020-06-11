@@ -30,7 +30,7 @@
 
 • **brand**: *[AlmaCardBrand](../enums/almacardbrand.md)*
 
-*Defined in [types/card.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L15)*
+*Defined in [types/card.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L15)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **country**: *string*
 
-*Defined in [types/card.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L13)*
+*Defined in [types/card.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L13)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **exp_month**: *number*
 
-*Defined in [types/card.ts:10](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L10)*
+*Defined in [types/card.ts:10](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L10)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **exp_year**: *number*
 
-*Defined in [types/card.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L11)*
+*Defined in [types/card.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L11)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **funding**: *[AlmaCardFunding](../enums/almacardfunding.md)*
 
-*Defined in [types/card.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L14)*
+*Defined in [types/card.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L14)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • **last4**: *string*
 
-*Defined in [types/card.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L12)*
+*Defined in [types/card.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L12)*
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **psp_representations**: *PSPT*
 
-*Defined in [types/card.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L18)*
+*Defined in [types/card.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L18)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 • **three_d_secure_possible**: *boolean*
 
-*Defined in [types/card.ts:16](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L16)*
+*Defined in [types/card.ts:16](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L16)*
 
 ___
 
@@ -94,4 +94,4 @@ ___
 
 • **verified**: *boolean*
 
-*Defined in [types/card.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/card.ts#L17)*
+*Defined in [types/card.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/card.ts#L17)*

@@ -16,7 +16,7 @@
 
 • **CREDIT**: = "credit"
 
-*Defined in [types/common.ts:27](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L27)*
+*Defined in [types/common.ts:27](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L27)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **DEBIT**: = "debit"
 
-*Defined in [types/common.ts:26](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L26)*
+*Defined in [types/common.ts:26](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L26)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **UNKNOWN**: = "unknown"
 
-*Defined in [types/common.ts:28](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L28)*
+*Defined in [types/common.ts:28](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L28)*

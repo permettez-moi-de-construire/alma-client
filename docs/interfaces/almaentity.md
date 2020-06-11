@@ -19,7 +19,7 @@
 
 • **created**: *number*
 
-*Defined in [types/common.ts:39](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L39)*
+*Defined in [types/common.ts:39](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L39)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **id**: *string*
 
-*Defined in [types/common.ts:38](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L38)*
+*Defined in [types/common.ts:38](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L38)*

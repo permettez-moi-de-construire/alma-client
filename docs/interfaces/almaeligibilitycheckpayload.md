@@ -23,7 +23,7 @@
 
 • **installments_count**? : *number | number[]*
 
-*Defined in [types/installment.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L21)*
+*Defined in [types/installment.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/installment.ts#L21)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **purchase_amount**: *number*
 
-*Defined in [types/installment.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L22)*
+*Defined in [types/installment.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/installment.ts#L22)*

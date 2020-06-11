@@ -23,7 +23,7 @@
 
 • **data**: *T[]*
 
-*Defined in [types/common.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L43)*
+*Defined in [types/common.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L43)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **has_more**: *boolean*
 
-*Defined in [types/common.ts:44](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L44)*
+*Defined in [types/common.ts:44](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L44)*

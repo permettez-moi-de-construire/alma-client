@@ -27,7 +27,7 @@
 
 • **customer**? : *[AlmaCustomerPayload](../globals.md#almacustomerpayload)*
 
-*Defined in [types/payment.ts:60](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L60)*
+*Defined in [types/payment.ts:60](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/payment.ts#L60)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **order**? : *[AlmaOrderPayload](../globals.md#almaorderpayload)‹CODT›*
 
-*Defined in [types/payment.ts:58](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L58)*
+*Defined in [types/payment.ts:58](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/payment.ts#L58)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **orders**? : *Array‹[AlmaOrderPayload](../globals.md#almaorderpayload)‹CODT››*
 
-*Defined in [types/payment.ts:59](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L59)*
+*Defined in [types/payment.ts:59](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/payment.ts#L59)*
 
 ___
 
@@ -51,4 +51,4 @@ ___
 
 • **payment**: *[AlmaPaymentPayload](../globals.md#almapaymentpayload)‹CDT›*
 
-*Defined in [types/payment.ts:61](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L61)*
+*Defined in [types/payment.ts:61](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/payment.ts#L61)*

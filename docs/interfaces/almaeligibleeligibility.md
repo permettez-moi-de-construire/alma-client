@@ -24,7 +24,7 @@
 
 *Overrides [AlmaEligibility](almaeligibility.md).[eligible](almaeligibility.md#eligible)*
 
-*Defined in [types/installment.ts:38](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L38)*
+*Defined in [types/installment.ts:38](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/installment.ts#L38)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 *Inherited from [AlmaEligibility](almaeligibility.md).[installments_count](almaeligibility.md#installments_count)*
 
-*Defined in [types/installment.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L17)*
+*Defined in [types/installment.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/installment.ts#L17)*
 
 ___
 
@@ -42,4 +42,4 @@ ___
 
 • **payment_plan**: *Array‹Omit‹[AlmaInstallment](almainstallment.md), "state"››*
 
-*Defined in [types/installment.ts:39](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L39)*
+*Defined in [types/installment.ts:39](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/installment.ts#L39)*

@@ -19,7 +19,7 @@
 
 • **limit**? : *undefined | number*
 
-*Defined in [types/common.ts:49](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L49)*
+*Defined in [types/common.ts:49](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L49)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **starting_after**? : *undefined | string*
 
-*Defined in [types/common.ts:50](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L50)*
+*Defined in [types/common.ts:50](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L50)*

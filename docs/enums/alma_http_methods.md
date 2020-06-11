@@ -16,7 +16,7 @@
 
 • **ELIGIBILITY**: = "eligibility"
 
-*Defined in [lib/index.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L7)*
+*Defined in [lib/index.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/index.ts#L7)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **PAYMENTS**: = "payments"
 
-*Defined in [lib/index.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L6)*
+*Defined in [lib/index.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/index.ts#L6)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **REFUND**: = "refunds"
 
-*Defined in [lib/index.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L8)*
+*Defined in [lib/index.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/index.ts#L8)*

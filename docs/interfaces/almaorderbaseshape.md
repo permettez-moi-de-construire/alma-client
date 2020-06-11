@@ -24,7 +24,7 @@
 
 • **data**: *CODT*
 
-*Defined in [types/order.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/order.ts#L8)*
+*Defined in [types/order.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/order.ts#L8)*
 
 ___
 
@@ -32,7 +32,7 @@ ___
 
 • **merchant_reference**: *string*
 
-*Defined in [types/order.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/order.ts#L6)*
+*Defined in [types/order.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/order.ts#L6)*
 
 ___
 
@@ -40,4 +40,4 @@ ___
 
 • **merchant_url**: *string*
 
-*Defined in [types/order.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/order.ts#L7)*
+*Defined in [types/order.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/order.ts#L7)*

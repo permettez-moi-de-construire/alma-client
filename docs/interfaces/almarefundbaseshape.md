@@ -20,7 +20,7 @@
 
 • **amount**: *number*
 
-*Defined in [types/refund.ts:4](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/refund.ts#L4)*
+*Defined in [types/refund.ts:4](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/refund.ts#L4)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **merchant_reference**: *string*
 
-*Defined in [types/refund.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/refund.ts#L6)*
+*Defined in [types/refund.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/refund.ts#L6)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **payment**: *string*
 
-*Defined in [types/refund.ts:5](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/refund.ts#L5)*
+*Defined in [types/refund.ts:5](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/refund.ts#L5)*

@@ -19,7 +19,7 @@
 
 • **customer_email**? : *undefined | string*
 
-*Defined in [lib/payment.ts:36](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/payment.ts#L36)*
+*Defined in [lib/payment.ts:36](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/payment.ts#L36)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **state**? : *[AlmaPaymentState](../enums/almapaymentstate.md)*
 
-*Defined in [lib/payment.ts:37](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/payment.ts#L37)*
+*Defined in [lib/payment.ts:37](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/lib/payment.ts#L37)*

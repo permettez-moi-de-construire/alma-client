@@ -22,7 +22,7 @@
 
 • **birth_date**: *string*
 
-*Defined in [types/customer.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L15)*
+*Defined in [types/customer.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L15)*
 
 ___
 
@@ -30,7 +30,7 @@ ___
 
 • **email**: *string*
 
-*Defined in [types/customer.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L13)*
+*Defined in [types/customer.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L13)*
 
 ___
 
@@ -38,7 +38,7 @@ ___
 
 • **first_name**: *string*
 
-*Defined in [types/customer.ts:10](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L10)*
+*Defined in [types/customer.ts:10](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L10)*
 
 ___
 
@@ -46,7 +46,7 @@ ___
 
 • **last_name**: *string*
 
-*Defined in [types/customer.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L11)*
+*Defined in [types/customer.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L11)*
 
 ___
 
@@ -54,4 +54,4 @@ ___
 
 • **phone**: *string*
 
-*Defined in [types/customer.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/customer.ts#L14)*
+*Defined in [types/customer.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/customer.ts#L14)*

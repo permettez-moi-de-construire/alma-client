@@ -16,7 +16,7 @@
 
 • **COVERED**: = "covered"
 
-*Defined in [types/common.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L14)*
+*Defined in [types/common.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L14)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **PAID**: = "paid"
 
-*Defined in [types/common.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L13)*
+*Defined in [types/common.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L13)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **PENDING**: = "pending"
 
-*Defined in [types/common.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L12)*
+*Defined in [types/common.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/299dafb/src/types/common.ts#L12)*
