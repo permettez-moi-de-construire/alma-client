@@ -19,7 +19,7 @@
     "build": "yarn _clean && yarn _ready && yarn _compile",
     "build:doc": "yarn _clean:doc && yarn _ready:doc && yarn _compile:doc",
     "lint": "ts-standard | snazzy",
-    "typecheck": "yarn _compile -- --noEmit",
+    "typecheck": "yarn _compile --noEmit",
     "_compile": "yarn _compile:dist",
     "_compile:dist": "tsc",
     "_compile:doc": "typedoc --out docs --plugin typedoc-plugin-markdown --mode file",
