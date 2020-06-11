@@ -21,7 +21,7 @@
     "typecheck": "yarn _compile --noEmit",
     "_compile": "yarn _compile:dist",
     "_compile:dist": "tsc",
-    "_compile:doc": "typedoc --out docs --plugin typedoc-plugin-markdown --mode file",
+    "_compile:doc": "typedoc --out docs --mode file",
     "_clean": "yarn _clean:dist && yarn _clean:types",
     "_clean:dist": "shx rm -rf dist",
     "_clean:types": "shx rm -rf dist-types",
@@ -45,7 +45,6 @@
     "ts-standard": "^8.0.1",
     "type-fest": "^0.15.1",
     "typedoc": "^0.17.7",
-    "typedoc-plugin-markdown": "^2.3.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
