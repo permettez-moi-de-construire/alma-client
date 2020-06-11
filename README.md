@@ -6,6 +6,37 @@ See [Documentation](https://permettez-moi-de-construire.github.io/alma-client)
 
 ## Install
 
-```
+```bash
 yarn add @permettezmoideconstruire/alma-client
+```
+
+## Usage
+
+```
+
+import {
+  getClient,
+  createPayment,
+  AlmaPaymentOrderPayload,
+  AlmaPayment
+} from '@permettezmoideconstruire/alma-client
+
+const almaClient = getClient(
+  process.env.ALMA_API_KEY,
+  process.env.ALMA_API_ENDPOINT
+)
+
+const paymentOrderPayload: AlmaPaymentOrderPayload = {
+  payment: {
+    billing_address: {
+      country: 'France'
+    },
+    purchase_amount: 150000
+  }
+}
+
+// This is Promise<AxiosResponse<Payment>>
+const result = await _createPayment(almaClient)(paymentOrderCreation)
+const payment: Payment = result.data
+
 ```
