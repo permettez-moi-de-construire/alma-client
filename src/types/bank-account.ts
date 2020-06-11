@@ -13,8 +13,7 @@ export type AlmaSepaMandate =
   AlmaEntity &
   AlmaSepaMandateBaseShape
 
-
-  export interface AlmaBankAccountBaseShape {
+export interface AlmaBankAccountBaseShape {
   account_number: string
   id: string
   mandate: AlmaSepaMandate

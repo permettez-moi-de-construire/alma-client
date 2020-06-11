@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaBankAccountBaseShape](almabankaccountbaseshape.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaBankAccountBaseShape](almabankaccountbaseshape.md)
 
 # Interface: AlmaBankAccountBaseShape
 
@@ -21,7 +21,7 @@
 
 • **account_number**: *string*
 
-*Defined in [src/types/bank-account.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L18)*
+*Defined in [types/bank-account.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L17)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [src/types/bank-account.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L19)*
+*Defined in [types/bank-account.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L18)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **mandate**: *[AlmaSepaMandate](../globals.md#almasepamandate)*
 
-*Defined in [src/types/bank-account.ts:20](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L20)*
+*Defined in [types/bank-account.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L19)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **owner_name**: *string*
 
-*Defined in [src/types/bank-account.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L21)*
+*Defined in [types/bank-account.ts:20](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L20)*

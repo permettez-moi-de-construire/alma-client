@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaIneligibleEligibility](almaineligibleeligibility.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaIneligibleEligibility](almaineligibleeligibility.md)
 
 # Interface: AlmaIneligibleEligibility
 
@@ -23,7 +23,7 @@
 
 • **constraints**: *object*
 
-*Defined in [src/types/installment.ts:45](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L45)*
+*Defined in [types/installment.ts:45](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L45)*
 
 #### Type declaration:
 
@@ -41,7 +41,7 @@ ___
 
 *Overrides [AlmaEligibility](almaeligibility.md).[eligible](almaeligibility.md#eligible)*
 
-*Defined in [src/types/installment.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L43)*
+*Defined in [types/installment.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L43)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 *Inherited from [AlmaEligibility](almaeligibility.md).[installments_count](almaeligibility.md#installments_count)*
 
-*Defined in [src/types/installment.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L17)*
+*Defined in [types/installment.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L17)*
 
 ___
 
@@ -59,4 +59,4 @@ ___
 
 • **reasons**: *Record‹string, string›*
 
-*Defined in [src/types/installment.ts:44](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L44)*
+*Defined in [types/installment.ts:44](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L44)*

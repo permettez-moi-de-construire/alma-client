@@ -34,8 +34,8 @@ export type AlmaAddress =
   AlmaEntity &
   // Everything returned is nullable
   Omit<
-    SetNullable<AlmaAddressBaseShape>,
-    'country'
+  SetNullable<AlmaAddressBaseShape>,
+  'country'
   > &
   // ...except country, which is always defined
   Pick<AlmaAddressBaseShape, 'country'>

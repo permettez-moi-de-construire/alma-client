@@ -18,11 +18,11 @@ export type AlmaOrderPayload<CODT extends {} = {}> = Partial<AlmaOrderBaseShape<
 // "merchant_reference": null,
 // "merchant_url": null,
 // "payment": "payment_11jj1Ye4isylzn1NIW2YGcKG2qIew4GN7F"
-export type AlmaOrder<CODT extends {} = {}> = 
+export type AlmaOrder<CODT extends {} = {}> =
   AlmaEntity &
   SetNullable<AlmaOrderBaseShape<CODT>> &
   {
     payment: string
-    comment: string | null,
+    comment: string | null
     customer_url: string | null
   }

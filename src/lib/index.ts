@@ -1,6 +1,6 @@
-import Axios, { AxiosInstance, AxiosResponse } from 'axios'
+import Axios, { AxiosInstance } from 'axios'
 
-interface AlmaAxiosInstance extends AxiosInstance {}
+type AlmaAxiosInstance = AxiosInstance
 
 enum ALMA_HTTP_METHODS {
   PAYMENTS = 'payments',

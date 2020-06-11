@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [ALMA_HTTP_METHODS](alma_http_methods.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [ALMA_HTTP_METHODS](alma_http_methods.md)
 
 # Enumeration: ALMA_HTTP_METHODS
 
@@ -16,7 +16,7 @@
 
 • **ELIGIBILITY**: = "eligibility"
 
-*Defined in [src/lib/index.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/lib/index.ts#L7)*
+*Defined in [lib/index.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L7)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **PAYMENTS**: = "payments"
 
-*Defined in [src/lib/index.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/lib/index.ts#L6)*
+*Defined in [lib/index.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L6)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **REFUND**: = "refunds"
 
-*Defined in [src/lib/index.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/lib/index.ts#L8)*
+*Defined in [lib/index.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/lib/index.ts#L8)*

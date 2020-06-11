@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaLocale](almalocale.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaLocale](almalocale.md)
 
 # Enumeration: AlmaLocale
 
@@ -15,7 +15,7 @@
 
 • **EN**: = "en"
 
-*Defined in [src/types/common.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L8)*
+*Defined in [types/common.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L8)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **FR**: = "fr"
 
-*Defined in [src/types/common.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L7)*
+*Defined in [types/common.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L7)*

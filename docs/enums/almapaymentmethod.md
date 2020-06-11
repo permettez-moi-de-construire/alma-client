@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaPaymentMethod](almapaymentmethod.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaPaymentMethod](almapaymentmethod.md)
 
 # Enumeration: AlmaPaymentMethod
 
@@ -15,7 +15,7 @@
 
 • **BANK_CREDIT**: = "bank_debit"
 
-*Defined in [src/types/common.ts:3](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L3)*
+*Defined in [types/common.ts:3](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L3)*
 
 ___
 
@@ -23,4 +23,4 @@ ___
 
 • **CARD**: = "card"
 
-*Defined in [src/types/common.ts:2](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L2)*
+*Defined in [types/common.ts:2](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L2)*

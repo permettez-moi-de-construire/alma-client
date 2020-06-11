@@ -8,8 +8,8 @@ export interface AlmaRefundBaseShape {
 
 export type AlmaRefundPayload =
   Omit<
-    Partial<AlmaRefundBaseShape>,
-    'payment'
+  Partial<AlmaRefundBaseShape>,
+  'payment'
   >
 
 export type AlmaRefund =

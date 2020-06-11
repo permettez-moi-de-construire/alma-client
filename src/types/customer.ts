@@ -44,18 +44,18 @@ export type AlmaCustomer =
   AlmaEntity &
   SetNullable<AlmaCustomerBaseShape> &
   {
-    bank_accounts: AlmaBankAccount[],
-    banking_data_collected: boolean,
-    business_id_number: number | null,
-    business_name: string | null,
-    card: AlmaCard | null,
-    cards: AlmaCard[],
+    bank_accounts: AlmaBankAccount[]
+    banking_data_collected: boolean
+    business_id_number: number | null
+    business_name: string | null
+    card: AlmaCard | null
+    cards: AlmaCard[]
     // TODO: type correctly
-    collection_state: any | null,
-    email_verified: boolean,
-    is_business: boolean,
-    phone: string | null,
-    phone_verified: boolean,
-    primary_bank_account: AlmaBankAccount | null,
+    collection_state: any | null
+    email_verified: boolean
+    is_business: boolean
+    phone: string | null
+    phone_verified: boolean
+    primary_bank_account: AlmaBankAccount | null
     addresses: AlmaAddress[]
   }

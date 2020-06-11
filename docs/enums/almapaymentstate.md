@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaPaymentState](almapaymentstate.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaPaymentState](almapaymentstate.md)
 
 # Enumeration: AlmaPaymentState
 
@@ -18,7 +18,7 @@
 
 • **NOT_STARTED**: = "not_started"
 
-*Defined in [src/types/common.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L18)*
+*Defined in [types/common.ts:18](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L18)*
 
 ___
 
@@ -26,7 +26,7 @@ ___
 
 • **PAID**: = "paid"
 
-*Defined in [src/types/common.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L22)*
+*Defined in [types/common.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L22)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 • **SCORED_MAYBE**: = "scored_maybe"
 
-*Defined in [src/types/common.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L21)*
+*Defined in [types/common.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L21)*
 
 ___
 
@@ -42,7 +42,7 @@ ___
 
 • **SCORED_NO**: = "scored_no"
 
-*Defined in [src/types/common.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L19)*
+*Defined in [types/common.ts:19](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L19)*
 
 ___
 
@@ -50,4 +50,4 @@ ___
 
 • **SCORED_YES**: = "scored_yes"
 
-*Defined in [src/types/common.ts:20](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L20)*
+*Defined in [types/common.ts:20](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L20)*

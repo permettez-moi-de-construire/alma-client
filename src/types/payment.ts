@@ -36,31 +36,30 @@ export interface AlmaPaymentBaseShape<CDT extends {} = {}> {
 export type AlmaPaymentPayload<CDT extends {} = {}> =
   // Everything is optional...
   Omit<
-    Partial<AlmaPaymentBaseShape<CDT>>,
-    'purchase_amount'
+  Partial<AlmaPaymentBaseShape<CDT>>,
+  'purchase_amount'
   > &
   // ...except purchase_amount...
   Pick<AlmaPaymentBaseShape, 'purchase_amount'> &
   // ...one of addresses
   RequireAtLeastOne<{
-    billing_address: AlmaAddressPayload,
+    billing_address: AlmaAddressPayload
     shipping_address: AlmaAddressPayload
   }> &
   // ... and expires_after + ipn_callback_url
   // TODO: check. It should also be in return?
   // so maybe in baseShape ?
   {
-    expires_after?: number,
+    expires_after?: number
     ipn_callback_url?: string
   }
 
 export interface AlmaPaymentOrderPayload<CDT extends {} = {}, CODT extends {} = {}> {
   order?: AlmaOrderPayload<CODT>
-  orders?: AlmaOrderPayload<CODT>[]
+  orders?: Array<AlmaOrderPayload<CODT>>
   customer?: AlmaCustomerPayload
   payment: AlmaPaymentPayload<CDT>
 }
-
 
 // RESPONSE FROM PAYMENT
 // {
@@ -139,40 +138,39 @@ export interface AlmaPaymentOrderPayload<CDT extends {} = {}, CODT extends {} = 
 //   "using_sepa_debit": false
 // }
 
-
 // This one is pretty strange...
 // It's a mix between "Payment" (`payment` at root)
 // and "PaymentOrder" (nested `payment`)
 export type AlmaPayment<CDT extends {} = {}, CODT extends {} = {}> =
   AlmaEntity &
   SetNullable<
-    AlmaPaymentBaseShape<CDT>,
-    'customer_cancel_url' | 'return_url'
+  AlmaPaymentBaseShape<CDT>,
+  'customer_cancel_url' | 'return_url'
   > &
   {
-    billing_address: AlmaAddress | null,
-    shipping_address: AlmaAddress | null,
+    billing_address: AlmaAddress | null
+    shipping_address: AlmaAddress | null
 
-    can_be_charged: boolean,
-    customer: AlmaCustomer,
-    customer_fee: number,
-    customer_target_fee: number,
-    is_customer_kyced: boolean,
-    locale: AlmaLocale,
-    merchant_id: string,
-    merchant_name: string | null,
-    merchant_website: string | null,
-    orders: AlmaOrder<CODT>[]
+    can_be_charged: boolean
+    customer: AlmaCustomer
+    customer_fee: number
+    customer_target_fee: number
+    is_customer_kyced: boolean
+    locale: AlmaLocale
+    merchant_id: string
+    merchant_name: string | null
+    merchant_website: string | null
+    orders: Array<AlmaOrder<CODT>>
     // TODO: type correctly
-    origin: string | null,
-    payment_plan: AlmaHypotheticalInstallment[],
-    refunds: AlmaRefund[],
+    origin: string | null
+    payment_plan: AlmaHypotheticalInstallment[]
+    refunds: AlmaRefund[]
     // TODO: TYPE CORRECTY
-    requirements: {},
+    requirements: {}
     // TODO: TYPE CORRECTY
-    seller: any | null,
-    sepa_debit_enabled: boolean,
-    state: AlmaPaymentState,
-    url: string,
+    seller: any | null
+    sepa_debit_enabled: boolean
+    state: AlmaPaymentState
+    url: string
     using_sepa_debit: boolean
   }

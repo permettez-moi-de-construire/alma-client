@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaSepaMandateBaseShape](almasepamandatebaseshape.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaSepaMandateBaseShape](almasepamandatebaseshape.md)
 
 # Interface: AlmaSepaMandateBaseShape
 
@@ -21,7 +21,7 @@
 
 • **accept_date**: *number*
 
-*Defined in [src/types/bank-account.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L6)*
+*Defined in [types/bank-account.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L6)*
 
 ___
 
@@ -29,7 +29,7 @@ ___
 
 • **accepted**: *boolean*
 
-*Defined in [src/types/bank-account.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L7)*
+*Defined in [types/bank-account.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L7)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **account_number**: *string*
 
-*Defined in [src/types/bank-account.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L8)*
+*Defined in [types/bank-account.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L8)*
 
 ___
 
@@ -45,4 +45,4 @@ ___
 
 • **url**: *string*
 
-*Defined in [src/types/bank-account.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/bank-account.ts#L9)*
+*Defined in [types/bank-account.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/bank-account.ts#L9)*

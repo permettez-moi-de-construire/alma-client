@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaCardBrand](almacardbrand.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaCardBrand](almacardbrand.md)
 
 # Enumeration: AlmaCardBrand
 
@@ -16,7 +16,7 @@
 
 • **AMERICAN_EXPRESS**: = "american express"
 
-*Defined in [src/types/common.ts:34](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L34)*
+*Defined in [types/common.ts:34](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L34)*
 
 ___
 
@@ -24,7 +24,7 @@ ___
 
 • **MASTERCARD**: = "mastercard"
 
-*Defined in [src/types/common.ts:33](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L33)*
+*Defined in [types/common.ts:33](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L33)*
 
 ___
 
@@ -32,4 +32,4 @@ ___
 
 • **VISA**: = "visa"
 
-*Defined in [src/types/common.ts:32](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L32)*
+*Defined in [types/common.ts:32](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L32)*

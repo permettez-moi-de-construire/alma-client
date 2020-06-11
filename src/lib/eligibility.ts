@@ -12,20 +12,20 @@ import type {
   AlmaEligibilityCheckPayload
 } from '../types'
 
-type PaymentEligibilityGetRequest = {
-  (eligibilityCheckPayload: AlmaMultiEligibilityCheckPayload)
-    : Promise<AxiosResponse<AlmaEligibility[]>>
-  (eligibilityCheckPayload: AlmaSingleEligibilityCheckPayload)
-    : Promise<AxiosResponse<AlmaEligibility>>
+interface PaymentEligibilityGetRequest {
+  (eligibilityCheckPayload: AlmaMultiEligibilityCheckPayload): Promise<AxiosResponse<AlmaEligibility[]>>
+  (eligibilityCheckPayload: AlmaSingleEligibilityCheckPayload): Promise<AxiosResponse<AlmaEligibility>>
 }
 
 const getPaymentEligibility = (
   almaAxiosClient: AlmaAxiosInstance
-): PaymentEligibilityGetRequest => (
+): PaymentEligibilityGetRequest => async (
   eligibilityCheckPayload: AlmaEligibilityCheckPayload
-) => almaAxiosClient.post(
-  `${ALMA_HTTP_METHODS.PAYMENTS}/${ALMA_HTTP_METHODS.ELIGIBILITY}`,
-  eligibilityCheckPayload
+) => (
+  await almaAxiosClient.post(
+    `${ALMA_HTTP_METHODS.PAYMENTS}/${ALMA_HTTP_METHODS.ELIGIBILITY}`,
+    eligibilityCheckPayload
+  )
 )
 
 export {

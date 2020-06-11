@@ -13,7 +13,7 @@ export interface AlmaInstallment extends AlmaInstallmentBaseShape {
 }
 
 export interface AlmaEligibility {
-  eligible: boolean,
+  eligible: boolean
   installments_count: number
 }
 
@@ -36,7 +36,7 @@ export interface AlmaMultiEligibilityCheckPayload extends AlmaEligibilityCheckPa
 
 export interface AlmaEligibleEligibility extends AlmaEligibility {
   eligible: true
-  payment_plan: Omit<AlmaInstallment, 'state'>[]
+  payment_plan: Array<Omit<AlmaInstallment, 'state'>>
 }
 
 export interface AlmaIneligibleEligibility extends AlmaEligibility {

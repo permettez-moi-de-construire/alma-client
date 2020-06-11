@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaList](almalist.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaList](almalist.md)
 
 # Interface: AlmaList ‹**T**›
 
@@ -23,7 +23,7 @@
 
 • **data**: *T[]*
 
-*Defined in [src/types/common.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L43)*
+*Defined in [types/common.ts:43](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L43)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **has_more**: *boolean*
 
-*Defined in [src/types/common.ts:44](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L44)*
+*Defined in [types/common.ts:44](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L44)*

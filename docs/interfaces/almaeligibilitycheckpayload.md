@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaEligibilityCheckPayload](almaeligibilitycheckpayload.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaEligibilityCheckPayload](almaeligibilitycheckpayload.md)
 
 # Interface: AlmaEligibilityCheckPayload
 
@@ -23,7 +23,7 @@
 
 • **installments_count**? : *number | number[]*
 
-*Defined in [src/types/installment.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L21)*
+*Defined in [types/installment.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L21)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **purchase_amount**: *number*
 
-*Defined in [src/types/installment.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L22)*
+*Defined in [types/installment.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L22)*

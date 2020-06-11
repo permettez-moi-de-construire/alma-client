@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaAddressBaseShape](almaaddressbaseshape.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaAddressBaseShape](almaaddressbaseshape.md)
 
 # Interface: AlmaAddressBaseShape
 
@@ -27,7 +27,7 @@
 
 • **city**: *string*
 
-*Defined in [src/types/address.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L11)*
+*Defined in [types/address.ts:11](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L11)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **company**: *string*
 
-*Defined in [src/types/address.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L8)*
+*Defined in [types/address.ts:8](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L8)*
 
 ___
 
@@ -43,7 +43,7 @@ ___
 
 • **country**: *string*
 
-*Defined in [src/types/address.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L13)*
+*Defined in [types/address.ts:13](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L13)*
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 • **email**: *string*
 
-*Defined in [src/types/address.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L14)*
+*Defined in [types/address.ts:14](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L14)*
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • **first_name**: *string*
 
-*Defined in [src/types/address.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L6)*
+*Defined in [types/address.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L6)*
 
 ___
 
@@ -67,7 +67,7 @@ ___
 
 • **last_name**: *string*
 
-*Defined in [src/types/address.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L7)*
+*Defined in [types/address.ts:7](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L7)*
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **line1**: *string*
 
-*Defined in [src/types/address.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L9)*
+*Defined in [types/address.ts:9](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L9)*
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **line2**: *string*
 
-*Defined in [src/types/address.ts:10](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L10)*
+*Defined in [types/address.ts:10](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L10)*
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **phone**: *string*
 
-*Defined in [src/types/address.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L15)*
+*Defined in [types/address.ts:15](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L15)*
 
 ___
 
@@ -99,4 +99,4 @@ ___
 
 • **postal_code**: *string*
 
-*Defined in [src/types/address.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/address.ts#L12)*
+*Defined in [types/address.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/address.ts#L12)*

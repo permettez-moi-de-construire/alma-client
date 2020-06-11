@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaInstallment](almainstallment.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaInstallment](almainstallment.md)
 
 # Interface: AlmaInstallment
 
@@ -25,7 +25,7 @@
 
 *Inherited from [AlmaInstallmentBaseShape](almainstallmentbaseshape.md).[customer_fee](almainstallmentbaseshape.md#customer_fee)*
 
-*Defined in [src/types/installment.ts:5](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L5)*
+*Defined in [types/installment.ts:5](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L5)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 *Inherited from [AlmaInstallmentBaseShape](almainstallmentbaseshape.md).[due_date](almainstallmentbaseshape.md#due_date)*
 
-*Defined in [src/types/installment.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L6)*
+*Defined in [types/installment.ts:6](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L6)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Inherited from [AlmaInstallmentBaseShape](almainstallmentbaseshape.md).[purchase_amount](almainstallmentbaseshape.md#purchase_amount)*
 
-*Defined in [src/types/installment.ts:4](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L4)*
+*Defined in [types/installment.ts:4](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L4)*
 
 ___
 
@@ -53,4 +53,4 @@ ___
 
 • **state**: *[AlmaInstallmentState](../enums/almainstallmentstate.md)*
 
-*Defined in [src/types/installment.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L12)*
+*Defined in [types/installment.ts:12](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L12)*

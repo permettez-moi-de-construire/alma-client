@@ -44,8 +44,8 @@ export interface AlmaList<T> {
   has_more: boolean
 }
 
-export type AlmaListOptions = {
+export interface AlmaListOptions {
   // Default to 20
-  limit?: number,
+  limit?: number
   starting_after?: string
 }

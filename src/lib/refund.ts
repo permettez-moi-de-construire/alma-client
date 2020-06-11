@@ -10,12 +10,14 @@ import type {
 
 const createRefund = (
   almaAxiosClient: AlmaAxiosInstance
-) => (
+) => async (
   paymentId: string,
   refundPayload: AlmaRefundPayload = {}
-) => almaAxiosClient.post<AlmaRefund>(
-  `${ALMA_HTTP_METHODS.PAYMENTS}/${paymentId}/${ALMA_HTTP_METHODS.REFUND}`,
-  refundPayload
+) => (
+  await almaAxiosClient.post<AlmaRefund>(
+    `${ALMA_HTTP_METHODS.PAYMENTS}/${paymentId}/${ALMA_HTTP_METHODS.REFUND}`,
+    refundPayload
+  )
 )
 
 export {

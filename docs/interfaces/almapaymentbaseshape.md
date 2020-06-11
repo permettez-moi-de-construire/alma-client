@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaPaymentBaseShape](almapaymentbaseshape.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaPaymentBaseShape](almapaymentbaseshape.md)
 
 # Interface: AlmaPaymentBaseShape ‹**CDT**›
 
@@ -29,7 +29,7 @@
 
 • **custom_data**: *CDT*
 
-*Defined in [src/types/payment.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L22)*
+*Defined in [types/payment.ts:22](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L22)*
 
 ___
 
@@ -37,7 +37,7 @@ ___
 
 • **customer_cancel_url**: *string*
 
-*Defined in [src/types/payment.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L21)*
+*Defined in [types/payment.ts:21](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L21)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 • **deferred_months**: *number*
 
-*Defined in [src/types/payment.ts:23](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L23)*
+*Defined in [types/payment.ts:23](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L23)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **installments_count**: *number*
 
-*Defined in [src/types/payment.ts:24](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L24)*
+*Defined in [types/payment.ts:24](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L24)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **locale**: *[AlmaLocale](../enums/almalocale.md)*
 
-*Defined in [src/types/payment.ts:33](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L33)*
+*Defined in [types/payment.ts:33](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L33)*
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 • **preferred_payment_method**: *[AlmaPaymentMethod](../enums/almapaymentmethod.md)*
 
-*Defined in [src/types/payment.ts:27](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L27)*
+*Defined in [types/payment.ts:27](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L27)*
 
 ___
 
@@ -77,7 +77,7 @@ ___
 
 • **purchase_amount**: *number*
 
-*Defined in [src/types/payment.ts:28](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L28)*
+*Defined in [types/payment.ts:28](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L28)*
 
 ___
 
@@ -85,4 +85,4 @@ ___
 
 • **return_url**: *string*
 
-*Defined in [src/types/payment.ts:29](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/payment.ts#L29)*
+*Defined in [types/payment.ts:29](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/payment.ts#L29)*

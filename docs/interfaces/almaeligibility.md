@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaEligibility](almaeligibility.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaEligibility](almaeligibility.md)
 
 # Interface: AlmaEligibility
 
@@ -23,7 +23,7 @@
 
 • **eligible**: *boolean*
 
-*Defined in [src/types/installment.ts:16](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L16)*
+*Defined in [types/installment.ts:16](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L16)*
 
 ___
 
@@ -31,4 +31,4 @@ ___
 
 • **installments_count**: *number*
 
-*Defined in [src/types/installment.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/installment.ts#L17)*
+*Defined in [types/installment.ts:17](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/installment.ts#L17)*

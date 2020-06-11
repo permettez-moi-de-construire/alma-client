@@ -1,4 +1,4 @@
-[@permettezmoideconstruire/alma-client](../globals.md) › [AlmaEntity](almaentity.md)
+[@permettezmoideconstruire/alma-client](../README.md) › [Globals](../globals.md) › [AlmaEntity](almaentity.md)
 
 # Interface: AlmaEntity
 
@@ -19,7 +19,7 @@
 
 • **created**: *number*
 
-*Defined in [src/types/common.ts:39](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L39)*
+*Defined in [types/common.ts:39](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L39)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **id**: *string*
 
-*Defined in [src/types/common.ts:38](https://github.com/permettez-moi-de-construire/alma-client/blob/b80dcbf/src/types/common.ts#L38)*
+*Defined in [types/common.ts:38](https://github.com/permettez-moi-de-construire/alma-client/blob/23f101f/src/types/common.ts#L38)*

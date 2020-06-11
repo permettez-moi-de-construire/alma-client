@@ -13,10 +13,10 @@ import type {
 
 const createPayment = (
   almaAxiosClient: AlmaAxiosInstance
-) => <CDT extends {} = {}, CODT extends {} = {}>(
+) => async <CDT extends {} = {}, CODT extends {} = {}>(
   paymentPayload: AlmaPaymentOrderPayload<CDT, CODT>
 ) => (
-  almaAxiosClient.post<AlmaPayment<CDT, CODT>>(
+  await almaAxiosClient.post<AlmaPayment<CDT, CODT>>(
     ALMA_HTTP_METHODS.PAYMENTS,
     paymentPayload
   )
@@ -24,26 +24,26 @@ const createPayment = (
 
 const findPayment = (
   almaAxiosClient: AlmaAxiosInstance
-) => <CDT extends {} = {}, CODT extends {} = {}>(
+) => async <CDT extends {} = {}, CODT extends {} = {}>(
   paymentId: string
 ) => (
-  almaAxiosClient.get<AlmaPayment<CDT, CODT>>(
+  await almaAxiosClient.get<AlmaPayment<CDT, CODT>>(
     `${ALMA_HTTP_METHODS.PAYMENTS}/${paymentId}`
   )
 )
 
-type PaymentsRequestListFilters = {
-  customer_email?: string,
+interface PaymentsRequestListFilters {
+  customer_email?: string
   state?: AlmaPaymentState
 }
 
 const listPayments = (
   almaAxiosClient: AlmaAxiosInstance
-) => <CDT extends {} = {}, CODT extends {} = {}>(
+) => async <CDT extends {} = {}, CODT extends {} = {}>(
   filters: PaymentsRequestListFilters = {},
   options: AlmaListOptions = {}
 ) => (
-  almaAxiosClient.get<AlmaList<AlmaPayment<CDT, CODT>>>(
+  await almaAxiosClient.get<AlmaList<AlmaPayment<CDT, CODT>>>(
     `${ALMA_HTTP_METHODS.PAYMENTS}`,
     {
       params: {
