@@ -1,6 +1,6 @@
 {
   "name": "@permettezmoideconstruire/alma-client",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Typescript client for Alma (using axios)",
   "main": "./dist/index.js",
   "types": "./dist-types/index.d.ts",
@@ -19,6 +19,7 @@
     "build:doc": "yarn _clean:doc && yarn _ready:doc && yarn _compile:doc",
     "lint": "ts-standard | snazzy",
     "typecheck": "yarn _compile --noEmit",
+    "prepack": "yarn build",
     "_compile": "yarn _compile:dist",
     "_compile:dist": "tsc",
     "_compile:doc": "typedoc --out docs --mode file",
