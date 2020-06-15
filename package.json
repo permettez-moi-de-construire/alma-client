@@ -1,6 +1,6 @@
 {
   "name": "@permettezmoideconstruire/alma-client",
-  "version": "0.0.11",
+  "version": "0.1.0",
   "description": "Typescript client for Alma (using axios)",
   "main": "./dist/index.js",
   "types": "./dist-types/index.d.ts",
