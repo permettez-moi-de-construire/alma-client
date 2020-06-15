@@ -7,6 +7,7 @@ import {
 
 import type {
   AlmaEligibility,
+  AlmaEligibleEligibility,
   AlmaMultiEligibilityCheckPayload,
   AlmaSingleEligibilityCheckPayload,
   AlmaEligibilityCheckPayload
@@ -28,8 +29,13 @@ const getPaymentEligibility = (
   )
 )
 
+const isEligible = (eligibility: AlmaEligibility): eligibility is AlmaEligibleEligibility => (
+  eligibility.eligible
+)
+
 export {
-  getPaymentEligibility
+  getPaymentEligibility,
+  isEligible
 }
 
 export type {
