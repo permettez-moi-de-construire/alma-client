@@ -28,6 +28,7 @@ export {
 export * from './eligibility'
 export * from './payment'
 export * from './refund'
+export * from './helpers'
 
 export type {
   AlmaAxiosInstance
