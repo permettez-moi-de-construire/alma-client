@@ -17,25 +17,31 @@ export interface AlmaEligibility {
   installments_count: number
 }
 
+export interface AlmaEligibilityPaymentPayload {
+  installments_count?: number | number[]
+  purchase_amount: number
+}
+
+export interface AlmaSingleEligibilityPaymentPayload extends AlmaEligibilityPaymentPayload {
+  installments_count?: number
+  purchase_amount: number
+}
+
+export interface AlmaMultiEligibilityPaymentPayload extends AlmaEligibilityPaymentPayload {
+  installments_count: number[]
+  purchase_amount: number
+}
+
 export interface AlmaEligibilityCheckPayload {
-  payment: {
-    installments_count?: number | number[]
-    purchase_amount: number
-  }
+  payment: AlmaSingleEligibilityPaymentPayload | AlmaMultiEligibilityPaymentPayload
 }
 
 export interface AlmaSingleEligibilityCheckPayload extends AlmaEligibilityCheckPayload {
-  payment: {
-    installments_count?: number
-    purchase_amount: number
-  }
+  payment: AlmaSingleEligibilityPaymentPayload
 }
 
 export interface AlmaMultiEligibilityCheckPayload extends AlmaEligibilityCheckPayload {
-  payment: {
-    installments_count: number[]
-    purchase_amount: number
-  }
+  payment: AlmaMultiEligibilityPaymentPayload
 }
 
 // TODO: CHECK original_purchase_amount
