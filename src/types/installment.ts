@@ -48,7 +48,7 @@ export interface AlmaMultiEligibilityCheckPayload extends AlmaEligibilityCheckPa
 
 export interface AlmaEligibleEligibility extends AlmaEligibility {
   eligible: true
-  payment_plan: Array<Omit<AlmaInstallment, 'state'>>
+  payment_plan: AlmaHypotheticalInstallment
 }
 
 export interface AlmaIneligibleEligibility extends AlmaEligibility {

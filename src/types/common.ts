@@ -19,7 +19,8 @@ export enum AlmaPaymentState {
   SCORED_NO = 'scored_no',
   SCORED_YES = 'scored_yes',
   SCORED_MAYBE = 'scored_maybe',
-  PAID = 'paid'
+  PAID = 'paid',
+  IN_PROGRESS = 'in_progress'
 }
 
 export enum AlmaCardFunding {
