@@ -14,7 +14,7 @@ import { AlmaAddressPayload, AlmaAddress } from './address'
 import { AlmaCustomerPayload, AlmaCustomer } from './customer'
 import { AlmaOrderPayload, AlmaOrder } from './order'
 import { AlmaRefund } from './refund'
-import { AlmaHypotheticalInstallment } from './installment'
+import { AlmaInstallment } from './installment'
 
 export interface AlmaPaymentBaseShape<CDT extends {} = {}> {
   // billing_address: AlmaAddressBaseShape
@@ -163,7 +163,7 @@ export type AlmaPayment<CDT extends {} = {}, CODT extends {} = {}> =
     orders: Array<AlmaOrder<CODT>>
     // TODO: type correctly
     origin: string | null
-    payment_plan: AlmaHypotheticalInstallment[]
+    payment_plan: AlmaInstallment[]
     refunds: AlmaRefund[]
     // TODO: TYPE CORRECTY
     requirements: {}
