@@ -11,8 +11,7 @@ export enum AlmaLocale {
 export enum AlmaInstallmentState {
   PENDING = 'pending',
   PAID = 'paid',
-  COVERED = 'covered',
-  IN_PROGRESS = 'in_progress'
+  COVERED = 'covered'
 }
 
 export enum AlmaPaymentState {
@@ -20,7 +19,8 @@ export enum AlmaPaymentState {
   SCORED_NO = 'scored_no',
   SCORED_YES = 'scored_yes',
   SCORED_MAYBE = 'scored_maybe',
-  PAID = 'paid'
+  PAID = 'paid',
+  IN_PROGRESS = 'in_progress'
 }
 
 export enum AlmaCardFunding {
