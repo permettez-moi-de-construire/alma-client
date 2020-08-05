@@ -43,7 +43,7 @@
     "husky": "^4.2.5",
     "shx": "^0.3.2",
     "snazzy": "^8.0.0",
-    "ts-standard": "^8.0.1",
+    "ts-standard": "^9.0.0",
     "type-fest": "^0.15.1",
     "typedoc": "^0.17.7",
     "typescript": "^3.9.5"
