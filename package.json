@@ -45,7 +45,7 @@
     "snazzy": "^8.0.0",
     "ts-standard": "^8.0.1",
     "type-fest": "^0.15.1",
-    "typedoc": "^0.17.7",
+    "typedoc": "^0.19.1",
     "typescript": "^3.9.5"
   },
   "dependencies": {
