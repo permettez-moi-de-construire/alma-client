@@ -1,0 +1,333 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>@permettezmoideconstruire/alma-client</title>
+	<meta name="description" content="Documentation for @permettezmoideconstruire/alma-client">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="assets/js/search.json" data-base=".">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="index.html" class="title">@permettezmoideconstruire/alma-client</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="globals.html">Globals</a>
+				</li>
+			</ul>
+			<h1>@permettezmoideconstruire/alma-client</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<div class="tsd-panel tsd-typography">
+				<a href="#permettezmoideconstruirealma-client" id="permettezmoideconstruirealma-client" style="color: inherit; text-decoration: none;">
+					<h1>@permettezmoideconstruire/alma-client</h1>
+				</a>
+				<p><a href="https://travis-ci.org/github/permettez-moi-de-construire/alma-client"><img src="https://img.shields.io/travis/permettez-moi-de-construire/alma-client?style=flat-square&logo=travis" alt="build status"></a> <a href="https://standardjs.com/"><img src="https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square&logo=javascript" alt="code style"></a> <a href="https://david-dm.org/permettez-moi-de-construire/alma-client"><img src="https://img.shields.io/david/permettez-moi-de-construire/alma-client?style=flat-square&logo=npm" alt="libraries status"></a></p>
+				<p>See <a href="https://permettez-moi-de-construire.github.io/alma-client">Documentation</a></p>
+				<a href="#install" id="install" style="color: inherit; text-decoration: none;">
+					<h2>Install</h2>
+				</a>
+				<pre><code class="language-bash">yarn add @permettezmoideconstruire/alma-client</code></pre>
+				<a href="#usage" id="usage" style="color: inherit; text-decoration: none;">
+					<h2>Usage</h2>
+				</a>
+				<pre><code class="language-typescript"><span class="hljs-keyword">import</span> <span class="hljs-keyword">type</span> { AxiosResponse } <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;axios&#x27;</span>
+
+<span class="hljs-keyword">import</span> {
+  getClient,
+  createPayment,
+  AlmaPaymentOrderPayload,
+  AlmaPayment
+} <span class="hljs-keyword">from</span> <span class="hljs-string">&#x27;@permettezmoideconstruire/alma-client&#x27;</span>
+
+<span class="hljs-comment">// This creates and configure</span>
+<span class="hljs-comment">// dedicated Axios instance for Alma</span>
+<span class="hljs-keyword">const</span> almaClient = getClient(
+  process.env.ALMA_API_KEY,
+  <span class="hljs-comment">// Optional but typically useful to switch to sandbox API endpoint</span>
+  process.env.ALMA_API_ENDPOINT
+)
+
+<span class="hljs-comment">// API types helpers for payloads</span>
+<span class="hljs-keyword">const</span> paymentOrderPayload: AlmaPaymentOrderPayload = {
+  payment: {
+    billing_address: {
+      country: <span class="hljs-string">&#x27;France&#x27;</span>
+    },
+    purchase_amount: <span class="hljs-number">150000</span>
+  }
+}
+
+<span class="hljs-comment">// Each call is curryfied : method(almaClient)(data / options)</span>
+<span class="hljs-keyword">const</span> result: AxiosResponse&lt;Payment&gt; = <span class="hljs-keyword">await</span> createPayment(almaClient)(paymentOrderCreation)
+
+<span class="hljs-comment">// API types for returns</span>
+<span class="hljs-keyword">const</span> payment: Payment = result.data</code></pre>
+			</div>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+					<li class=" tsd-kind-enum">
+						<a href="enums/alma_http_methods.html" class="tsd-kind-icon">ALMA_<wbr>HTTP_<wbr>METHODS</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="enums/almacardbrand.html" class="tsd-kind-icon">Alma<wbr>Card<wbr>Brand</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="enums/almacardfunding.html" class="tsd-kind-icon">Alma<wbr>Card<wbr>Funding</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="enums/almainstallmentstate.html" class="tsd-kind-icon">Alma<wbr>Installment<wbr>State</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="enums/almalocale.html" class="tsd-kind-icon">Alma<wbr>Locale</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="enums/almapaymentmethod.html" class="tsd-kind-icon">Alma<wbr>Payment<wbr>Method</a>
+					</li>
+					<li class=" tsd-kind-enum">
+						<a href="enums/almapaymentstate.html" class="tsd-kind-icon">Alma<wbr>Payment<wbr>State</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaaddressbaseshape.html" class="tsd-kind-icon">Alma<wbr>Address<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almabankaccountbaseshape.html" class="tsd-kind-icon">Alma<wbr>Bank<wbr>Account<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-has-type-parameter">
+						<a href="interfaces/almacardbaseshape.html" class="tsd-kind-icon">Alma<wbr>Card<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almacustomerbaseshape.html" class="tsd-kind-icon">Alma<wbr>Customer<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaeligibility.html" class="tsd-kind-icon">Alma<wbr>Eligibility</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaeligibilitycheckpayload.html" class="tsd-kind-icon">Alma<wbr>Eligibility<wbr>Check<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaeligibilitypaymentpayload.html" class="tsd-kind-icon">Alma<wbr>Eligibility<wbr>Payment<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaeligibleeligibility.html" class="tsd-kind-icon">Alma<wbr>Eligible<wbr>Eligibility</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaentity.html" class="tsd-kind-icon">Alma<wbr>Entity</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almaineligibleeligibility.html" class="tsd-kind-icon">Alma<wbr>Ineligible<wbr>Eligibility</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almainstallment.html" class="tsd-kind-icon">Alma<wbr>Installment</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almainstallmentbaseshape.html" class="tsd-kind-icon">Alma<wbr>Installment<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-has-type-parameter">
+						<a href="interfaces/almalist.html" class="tsd-kind-icon">Alma<wbr>List</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almalistoptions.html" class="tsd-kind-icon">Alma<wbr>List<wbr>Options</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almamultieligibilitycheckpayload.html" class="tsd-kind-icon">Alma<wbr>Multi<wbr>Eligibility<wbr>Check<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almamultieligibilitypaymentpayload.html" class="tsd-kind-icon">Alma<wbr>Multi<wbr>Eligibility<wbr>Payment<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-has-type-parameter">
+						<a href="interfaces/almaorderbaseshape.html" class="tsd-kind-icon">Alma<wbr>Order<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-has-type-parameter">
+						<a href="interfaces/almapaymentbaseshape.html" class="tsd-kind-icon">Alma<wbr>Payment<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-has-type-parameter">
+						<a href="interfaces/almapaymentorderpayload.html" class="tsd-kind-icon">Alma<wbr>Payment<wbr>Order<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almarefundbaseshape.html" class="tsd-kind-icon">Alma<wbr>Refund<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almasepamandatebaseshape.html" class="tsd-kind-icon">Alma<wbr>Sepa<wbr>Mandate<wbr>Base<wbr>Shape</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almasingleeligibilitycheckpayload.html" class="tsd-kind-icon">Alma<wbr>Single<wbr>Eligibility<wbr>Check<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/almasingleeligibilitypaymentpayload.html" class="tsd-kind-icon">Alma<wbr>Single<wbr>Eligibility<wbr>Payment<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/paymenteligibilitygetrequest.html" class="tsd-kind-icon">Payment<wbr>Eligibility<wbr>Get<wbr>Request</a>
+					</li>
+					<li class=" tsd-kind-interface">
+						<a href="interfaces/paymentsrequestlistfilters.html" class="tsd-kind-icon">Payments<wbr>Request<wbr>List<wbr>Filters</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#allnullable" class="tsd-kind-icon">All<wbr>Nullable</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almaaddress" class="tsd-kind-icon">Alma<wbr>Address</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almaaddresspayload" class="tsd-kind-icon">Alma<wbr>Address<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almaaxiosinstance" class="tsd-kind-icon">Alma<wbr>Axios<wbr>Instance</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almabankaccount" class="tsd-kind-icon">Alma<wbr>Bank<wbr>Account</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#almacard" class="tsd-kind-icon">Alma<wbr>Card</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almacustomer" class="tsd-kind-icon">Alma<wbr>Customer</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almacustomerpayload" class="tsd-kind-icon">Alma<wbr>Customer<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almahypotheticalinstallment" class="tsd-kind-icon">Alma<wbr>Hypothetical<wbr>Installment</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#almaorder" class="tsd-kind-icon">Alma<wbr>Order</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#almaorderpayload" class="tsd-kind-icon">Alma<wbr>Order<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#almapayment" class="tsd-kind-icon">Alma<wbr>Payment</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#almapaymentpayload" class="tsd-kind-icon">Alma<wbr>Payment<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almarefund" class="tsd-kind-icon">Alma<wbr>Refund</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almarefundpayload" class="tsd-kind-icon">Alma<wbr>Refund<wbr>Payload</a>
+					</li>
+					<li class=" tsd-kind-type-alias">
+						<a href="globals.html#almasepamandate" class="tsd-kind-icon">Alma<wbr>Sepa<wbr>Mandate</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#nullable" class="tsd-kind-icon">Nullable</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#requireatleastone" class="tsd-kind-icon">Require<wbr>AtLeast<wbr>One</a>
+					</li>
+					<li class=" tsd-kind-type-alias tsd-has-type-parameter">
+						<a href="globals.html#setnullable" class="tsd-kind-icon">Set<wbr>Nullable</a>
+					</li>
+					<li class=" tsd-kind-variable">
+						<a href="globals.html#defaultendpoint" class="tsd-kind-icon">default<wbr>Endpoint</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#almatimestamptodate" class="tsd-kind-icon">alma<wbr>Timestamp<wbr>ToDate</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#centstoeurs" class="tsd-kind-icon">cents<wbr>ToEurs</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#createpayment" class="tsd-kind-icon">create<wbr>Payment</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#createrefund" class="tsd-kind-icon">create<wbr>Refund</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#datetoalmatimestamp" class="tsd-kind-icon">date<wbr>ToAlma<wbr>Timestamp</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#eurostocents" class="tsd-kind-icon">euros<wbr>ToCents</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#findpayment" class="tsd-kind-icon">find<wbr>Payment</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getclient" class="tsd-kind-icon">get<wbr>Client</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#getpaymenteligibility" class="tsd-kind-icon">get<wbr>Payment<wbr>Eligibility</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#iseligible" class="tsd-kind-icon">is<wbr>Eligible</a>
+					</li>
+					<li class=" tsd-kind-function">
+						<a href="globals.html#listpayments" class="tsd-kind-icon">list<wbr>Payments</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
