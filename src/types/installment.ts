@@ -21,18 +21,19 @@ export interface AlmaEligibility {
 export interface AlmaEligibilityPaymentPayload {
   installments_count?: number | number[]
   purchase_amount: number
+  deferred_days?: number | number[]
 }
 
 export interface AlmaSingleEligibilityPaymentPayload extends AlmaEligibilityPaymentPayload {
   installments_count?: number
   purchase_amount: number
-  deferred_days: number
+  deferred_days?: number
 }
 
 export interface AlmaMultiEligibilityPaymentPayload extends AlmaEligibilityPaymentPayload {
   installments_count: number[]
   purchase_amount: number
-  deferred_days: number
+  deferred_days: number[]
 }
 
 export interface AlmaEligibilityCheckPayload {
