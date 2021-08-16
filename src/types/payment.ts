@@ -22,6 +22,7 @@ export interface AlmaPaymentBaseShape<CDT extends {} = {}> {
   custom_data: CDT
   deferred_months: number
   installments_count: number
+  deferred_days: number
   // TODO: /!\ check, it has to be a bug
   // ipn_callback_url: string
   preferred_payment_method: AlmaPaymentMethod
