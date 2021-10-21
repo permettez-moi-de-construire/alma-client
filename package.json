@@ -40,7 +40,7 @@
   "ts-standard": {},
   "devDependencies": {
     "@types/node": "^14.11.5",
-    "husky": "^4.3.0",
+    "husky": "^7.0.4",
     "shx": "^0.3.2",
     "snazzy": "^8.0.0",
     "ts-standard": "^8.0.1",
