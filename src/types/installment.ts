@@ -15,21 +15,25 @@ export interface AlmaInstallment extends AlmaInstallmentBaseShape {
 export interface AlmaEligibility {
   eligible: boolean
   installments_count: number
+  deferred_days?: number
 }
 
 export interface AlmaEligibilityPaymentPayload {
   installments_count?: number | number[]
   purchase_amount: number
+  deferred_days?: number
 }
 
 export interface AlmaSingleEligibilityPaymentPayload extends AlmaEligibilityPaymentPayload {
   installments_count?: number
   purchase_amount: number
+  deferred_days?: number
 }
 
 export interface AlmaMultiEligibilityPaymentPayload extends AlmaEligibilityPaymentPayload {
   installments_count: number[]
   purchase_amount: number
+  deferred_days?: number
 }
 
 export interface AlmaEligibilityCheckPayload {
