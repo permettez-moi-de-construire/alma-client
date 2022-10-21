@@ -39,7 +39,7 @@
   },
   "ts-standard": {},
   "devDependencies": {
-    "@types/node": "^14.11.5",
+    "@types/node": "^18.11.3",
     "husky": "^4.3.0",
     "shx": "^0.3.2",
     "snazzy": "^8.0.0",
